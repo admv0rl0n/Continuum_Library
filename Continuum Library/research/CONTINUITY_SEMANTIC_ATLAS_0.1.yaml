@@ -1,0 +1,3378 @@
+continuity_semantic_atlas:
+  metadata:
+    title: CONTINUITY SEMANTIC ATLAS 0.1
+    source_file: CONTINUITY_SEMANTIC_ATLAS_0.1.xlsx
+    format_version: '0.1'
+    export_format: YAML
+    authority_note: Descriptive and experimental. Entries record survivors and useful handles; they grant no authority.
+    primary_warning: Do not graph the universe. Do not turn the Atlas into authority, ontology gravity, or semantic furniture.
+    experimental_rule: Keep the operation when the handle adds no unique value.
+    purpose: A research atlas of concepts, operations, geometry, status, questions, scars, distinctions, navigation metaphors
+      and high-density phrases recovered from the AI Tape / Guides / Wayfarer / Principles lineage.
+    canonical_data: ATLAS is the primary dictionary. RELATIONS is the edge list. Other sheets provide specialist views.
+    evidence_basis: Tape lineage, Continuity Guide, Unified Guide, T4A/T4A_FULL, Wayfarer, Continuity Principles 0.1-0.3,
+      archaeology and semantic-leverage experiments.
+    status: Research candidate
+    suggested_next_work: Add source-level provenance, independent-model evidence, foreign-project examples and behavioural
+      tests.
+  taxonomy:
+  - family: Reality
+    purpose: Concepts describing project reality, state, content, or continuity cargo.
+    examples: State, Force, Evidence, Gap, Scar, Asset
+    primary_question: What exists or matters?
+    typical_failure: Generic nouns without project grounding
+    preferred_use: Describe continuity cargo.
+  - family: Operation
+    purpose: Verbs or cognitive operations that change, recover, test, or carry continuity.
+    examples: Preserve, Recover, Distinguish, Rebase
+    primary_question: What should intelligence do?
+    typical_failure: Method theatre
+    preferred_use: Activate behaviour.
+  - family: Geometry
+    purpose: Explicit relationships describing dependency, conditionality, consequence, or regression.
+    examples: DEPENDS_ON, REOPEN_IF, PROTECTS_AGAINST
+    primary_question: What must remain connected?
+    typical_failure: Ontology soup
+    preferred_use: Protect expensive project geometry.
+  - family: Epistemic
+    purpose: Words that distinguish observation, inference, proposal, certainty, and evidence state.
+    examples: Observed, Interpreted, Proposed
+    primary_question: What kind of knowing is this?
+    typical_failure: Confidence by tone
+    preferred_use: Preserve evidence boundaries.
+  - family: Decision Status
+    purpose: Words describing whether an inherited judgement is active, provisional, rejected, or open.
+    examples: Adopted, Provisional, Rejected
+    primary_question: What should the successor do with this?
+    typical_failure: Status theatre
+    preferred_use: Preserve disposition.
+  - family: Gravity / Value
+    purpose: Qualifiers that determine admission, priority, cost, or importance.
+    examples: Material, Expensive, Active
+    primary_question: How strongly should this influence judgement?
+    typical_failure: Everything marked high
+    preferred_use: Admission and priority.
+  - family: Temporal / Directional
+    purpose: Words describing survival, change, persistence, evolution, or future movement.
+    examples: Survived, Changed, Remains
+    primary_question: How does this behave through time?
+    typical_failure: Chronology without consequence
+    preferred_use: Evolution and applicability.
+  - family: Boundary / Distinction
+    purpose: Paired concepts whose collapse damages judgement.
+    examples: Continuity != Identity
+    primary_question: What must not collapse?
+    typical_failure: False equivalence
+    preferred_use: Protect decision boundaries.
+  - family: Question
+    purpose: Compact prompts that activate recovery or reasoning behaviour.
+    examples: What still matters?
+    primary_question: What reasoning should be activated?
+    typical_failure: Question tourism
+    preferred_use: Directed recovery.
+  - family: Scar / Failure
+    purpose: Named failure patterns that reactivate corrective judgement.
+    examples: Chainsaw Compression, Abstraction Drift
+    primary_question: What expensive failure should not recur?
+    typical_failure: Fossilised prohibition
+    preferred_use: Reactivate lessons.
+  - family: Navigation / Depth
+    purpose: Metaphors and structures controlling active attention and recoverable depth.
+    examples: Landing, Map, Route, Archive
+    primary_question: Where should continuity live?
+    typical_failure: Map tourism
+    preferred_use: Control attention and retrieval.
+  - family: Transport
+    purpose: Words and operations governing constrained crossing and survivability.
+    examples: Payload, Checkpoint, Carrier
+    primary_question: How does continuity survive the channel?
+    typical_failure: Transport dominance
+    preferred_use: Constrained crossing.
+  - family: Phrase
+    purpose: High-density expressions carrying operation, stance, or design memory.
+    examples: Trust intelligence.
+    primary_question: What dense stance or operation can a phrase activate?
+    typical_failure: Slogan/furniture
+    preferred_use: Compact activation.
+  atlas:
+  - id: R001
+    handle: Reality
+    primary_family: Reality
+    secondary_family: Epistemic
+    form: noun
+    underlying_operation: Ground continuity in what materially exists or is established.
+    meaning_function: The project or world as it is, independent of the continuity method.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated across lineage
+    failure_if_lost: Continuity becomes self-referential or invented.
+    risk_if_overused: Can be invoked vaguely without specifying evidence.
+    strong_connections: State; Evidence; Observation; Source reality
+    contrast_boundary: Interpretation; simulation; invented completeness
+    activation_question: What is actually true here?
+    notes: Top-level grounding concept.
+  - id: R002
+    handle: State
+    primary_family: Reality
+    secondary_family: Temporal / Directional
+    form: noun
+    underlying_operation: Represent current project position.
+    meaning_function: The present configuration, situation, and working frontier.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Core Tape field
+    failure_if_lost: Successor cannot establish where work currently stands.
+    risk_if_overused: Snapshot bias if history and trajectory disappear.
+    strong_connections: Force; Gaps; Next; Trajectory
+    contrast_boundary: History; aspiration
+    activation_question: Where are we now?
+    notes: Operational orientation.
+  - id: R003
+    handle: Force
+    primary_family: Reality
+    secondary_family: Gravity / Value
+    form: noun
+    underlying_operation: Recover present directional importance.
+    meaning_function: What currently exerts priority, pressure, significance, or constraint.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Core Tape field
+    failure_if_lost: Successor knows facts but not what matters.
+    risk_if_overused: Force inflation; everything marked important.
+    strong_connections: State; Next; Tension; Pressure
+    contrast_boundary: Merely available material
+    activation_question: What still matters?
+    notes: Distinct from existence or recency.
+  - id: R004
+    handle: Understanding
+    primary_family: Reality
+    secondary_family: Epistemic
+    form: noun
+    underlying_operation: Carry load-bearing meaning.
+    meaning_function: What materially changes interpretation, judgement, or continuation.
+    gravity: High
+    status: Strong survivor
+    evidence_status: T4A / archaeology
+    failure_if_lost: Facts survive but re-derivation remains expensive.
+    risk_if_overused: Protecting understanding for its own sake.
+    strong_connections: Rationale; Interpretation; Consequence; Decision
+    contrast_boundary: Raw information
+    activation_question: What understanding changes action?
+    notes: Core post-7.0 addition.
+  - id: R005
+    handle: Evidence
+    primary_family: Reality
+    secondary_family: Epistemic
+    form: noun
+    underlying_operation: Anchor claims and interpretations.
+    meaning_function: Material that supports, contradicts, qualifies, or verifies a claim.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated
+    failure_if_lost: Claims become ungrounded or impossible to reverify.
+    risk_if_overused: Evidence dumping without relevance.
+    strong_connections: Observation; Interpretation; Decision; Source
+    contrast_boundary: Opinion
+    activation_question: What supports or contradicts this?
+    notes: May be source, experiment, result, artifact.
+  - id: R006
+    handle: Rationale
+    primary_family: Reality
+    secondary_family: Decision Status
+    form: noun
+    underlying_operation: Preserve why a judgement exists.
+    meaning_function: Reasoning and conditions behind a decision or design.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Core Tape / Guides
+    failure_if_lost: Successor must decide again or obey blindly.
+    risk_if_overused: Retrospective rationalisation.
+    strong_connections: Decision; Condition; Scar; Evidence
+    contrast_boundary: Conclusion alone
+    activation_question: Why does this exist?
+    notes: Should preserve basis, not just justification prose.
+  - id: R007
+    handle: Relationship
+    primary_family: Reality
+    secondary_family: Geometry
+    form: noun
+    underlying_operation: Preserve consequential connectivity.
+    meaning_function: A link whose loss changes understanding, judgement, or action.
+    gravity: High
+    status: Strong survivor
+    evidence_status: T4 interaction branch
+    failure_if_lost: Nodes survive while project geometry dies.
+    risk_if_overused: Spurious relationships.
+    strong_connections: Dependency; Condition; Consequence; Interaction
+    contrast_boundary: Unrelated co-occurrence
+    activation_question: What depends on what?
+    notes: Generic container; prefer specific geometry when useful.
+  - id: R008
+    handle: Dependency
+    primary_family: Reality
+    secondary_family: Geometry
+    form: noun
+    underlying_operation: Expose reliance or conditional validity.
+    meaning_function: A reliance that affects operation, validity, or decision reopenability.
+    gravity: High
+    status: Strong survivor
+    evidence_status: 0.3 / Full
+    failure_if_lost: Changed conditions fail to trigger reconsideration.
+    risk_if_overused: Overstating weak associations.
+    strong_connections: Decision; Condition; Asset; Evidence
+    contrast_boundary: Mere relation
+    activation_question: What keeps this valid?
+    notes: Often rendered as DEPENDS_ON.
+  - id: R009
+    handle: Condition
+    primary_family: Reality
+    secondary_family: Geometry
+    form: noun
+    underlying_operation: Preserve validity context.
+    meaning_function: A circumstance under which a decision, interpretation, or structure remains sensible.
+    gravity: High
+    status: Strong survivor
+    evidence_status: '0.3'
+    failure_if_lost: Conclusions survive after their basis expires.
+    risk_if_overused: Overconditionalising stable reality.
+    strong_connections: Decision; Dependency; REOPEN_IF; VALID_WHILE
+    contrast_boundary: Permanent authority
+    activation_question: What must remain true?
+    notes: Central to reopenability.
+  - id: R010
+    handle: Assumption
+    primary_family: Reality
+    secondary_family: Epistemic
+    form: noun
+    underlying_operation: Make unverified premises visible.
+    meaning_function: A premise currently used without full establishment.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated
+    failure_if_lost: Assumptions silently harden into facts.
+    risk_if_overused: Assumption inventories without consequence.
+    strong_connections: Decision; Evidence; Condition; Risk
+    contrast_boundary: Observed fact
+    activation_question: What are we relying on without proof?
+    notes: May be provisional or testable.
+  - id: R011
+    handle: Decision
+    primary_family: Reality
+    secondary_family: Decision Status
+    form: noun
+    underlying_operation: Preserve material judgement.
+    meaning_function: A choice or conclusion that affects the work.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated
+    failure_if_lost: Successor repeats or reverses choices unknowingly.
+    risk_if_overused: Decision logging without rationale.
+    strong_connections: Rationale; Condition; Evidence; Status; Consequence
+    contrast_boundary: Idea or proposal
+    activation_question: What was decided and why?
+    notes: Needs status and reopen conditions when material.
+  - id: R012
+    handle: Pressure
+    primary_family: Reality
+    secondary_family: Gravity / Value
+    form: noun
+    underlying_operation: Represent recurring external or internal force.
+    meaning_function: Constraint, goal, risk, misconception, or reality repeatedly shaping the work.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Origins / Pressure
+    failure_if_lost: Design memory loses why an issue keeps returning.
+    risk_if_overused: Everything becomes a pressure.
+    strong_connections: Origin; Force; Constraint; Risk
+    contrast_boundary: Transient noise
+    activation_question: What keeps forcing this to matter?
+    notes: Useful in Origins.
+  - id: R013
+    handle: Tension
+    primary_family: Reality
+    secondary_family: Boundary / Distinction
+    form: noun
+    underlying_operation: Preserve competing realities without forced resolution.
+    meaning_function: A live pull between trade-offs, constraints, or goals.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Core Tape
+    failure_if_lost: Artificial agreement hides real trade-offs.
+    risk_if_overused: Manufactured conflict.
+    strong_connections: Force; Decision; Question; Trade-off
+    contrast_boundary: Resolved disagreement
+    activation_question: What is pulling against what?
+    notes: Active tension differs from historical disagreement.
+  - id: R014
+    handle: Gap
+    primary_family: Reality
+    secondary_family: Epistemic
+    form: noun
+    underlying_operation: Represent missing or unavailable reality.
+    meaning_function: Known absence, uncertainty, or unavailable evidence.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Core Tape
+    failure_if_lost: Unknowns become invented completeness.
+    risk_if_overused: Gap inflation.
+    strong_connections: Uncertainty; Evidence; Question; Recovery
+    contrast_boundary: Falsity
+    activation_question: What remains unknown?
+    notes: Known absence is continuity.
+  - id: R015
+    handle: Uncertainty
+    primary_family: Reality
+    secondary_family: Epistemic
+    form: noun
+    underlying_operation: Preserve unsettled confidence or interpretation.
+    meaning_function: Material lack of certainty that affects judgement.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Guides / Principles
+    failure_if_lost: False certainty and bad action.
+    risk_if_overused: Decorative hedging.
+    strong_connections: Evidence; Interpretation; Decision; Gap
+    contrast_boundary: Ignorance without consequence
+    activation_question: What remains uncertain?
+    notes: Should be material, not universal disclaimer.
+  - id: R016
+    handle: Scar
+    primary_family: Reality
+    secondary_family: Scar / Failure
+    form: noun
+    underlying_operation: Carry expensive lessons.
+    meaning_function: A failure, rejected path, disproven assumption, or trap whose loss causes re-derivation.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Workshop / archaeology
+    failure_if_lost: Successor repeats already-paid-for failures.
+    risk_if_overused: Fossilisation into permanent law.
+    strong_connections: Failure; Rationale; Protection; Condition
+    contrast_boundary: Ban without reason
+    activation_question: What was expensive to learn?
+    notes: Must preserve why and applicability.
+  - id: R017
+    handle: Asset
+    primary_family: Reality
+    secondary_family: Navigation / Depth
+    form: noun
+    underlying_operation: Identify material external or internal resources.
+    meaning_function: File, repository, research, dataset, person, source, or tool affecting continuation.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Core Tape
+    failure_if_lost: Successor lacks required material or routes.
+    risk_if_overused: Inventory bloat.
+    strong_connections: NAVIGABLE_VIA; Evidence; Action; Source
+    contrast_boundary: Everything that exists
+    activation_question: What materially affects continuation?
+    notes: Record only assets that still matter.
+  - id: R018
+    handle: Agency
+    primary_family: Reality
+    secondary_family: Operation
+    form: noun
+    underlying_operation: Preserve successor ability to act and choose.
+    meaning_function: Capacity to continue, challenge, and improve rather than merely reproduce.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Guides / Tape
+    failure_if_lost: Continuity becomes predecessor control.
+    risk_if_overused: Agency rhetoric without grounded choices.
+    strong_connections: Next; Action; Successor; Freedom
+    contrast_boundary: Obedience
+    activation_question: What does this enable?
+    notes: Core successor principle.
+  - id: R019
+    handle: Trajectory
+    primary_family: Reality
+    secondary_family: Temporal / Directional
+    form: noun
+    underlying_operation: Preserve durable direction and future geometry.
+    meaning_function: What the work appears to be becoming beyond the next action.
+    gravity: High
+    status: Strong survivor
+    evidence_status: T4A
+    failure_if_lost: Successor sees local tasks but not directional shape.
+    risk_if_overused: Speculative futurism.
+    strong_connections: Evolution; Next; Force; Change
+    contrast_boundary: Immediate action
+    activation_question: What is this becoming?
+    notes: Not merely roadmap.
+  - id: R020
+    handle: Consequence
+    primary_family: Reality
+    secondary_family: Geometry
+    form: noun
+    underlying_operation: Preserve what follows from reality or change.
+    meaning_function: Material result of a decision, interaction, or changed condition.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Understanding Effect / 0.3
+    failure_if_lost: Facts survive without their behavioural implications.
+    risk_if_overused: Invented downstream effects.
+    strong_connections: Change; Decision; Interaction; Action
+    contrast_boundary: Mere sequence
+    activation_question: What changes if this changes?
+    notes: High-value bridge concept.
+  - id: O001
+    handle: Preserve
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Retain continuity whose loss would materially damage continuation.
+    meaning_function: Retain continuity whose loss would materially damage continuation.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we preserve?
+    notes: Operation may survive when handle changes.
+  - id: O002
+    handle: Recover
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Reconstruct useful continuity from reality or sources.
+    meaning_function: Reconstruct useful continuity from reality or sources.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we recover?
+    notes: Operation may survive when handle changes.
+  - id: O003
+    handle: Carry
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Move expensive meaning through a crossing or constraint.
+    meaning_function: Move expensive meaning through a crossing or constraint.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we carry?
+    notes: Operation may survive when handle changes.
+  - id: O004
+    handle: Declare
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: State gaps, authority, limits, or status honestly.
+    meaning_function: State gaps, authority, limits, or status honestly.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we declare?
+    notes: Operation may survive when handle changes.
+  - id: O005
+    handle: Distinguish
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Keep materially different epistemic or operational states separate.
+    meaning_function: Keep materially different epistemic or operational states separate.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we distinguish?
+    notes: Operation may survive when handle changes.
+  - id: O006
+    handle: Challenge
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Test inherited conclusions and stale authority.
+    meaning_function: Test inherited conclusions and stale authority.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we challenge?
+    notes: Operation may survive when handle changes.
+  - id: O007
+    handle: Verify
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Check claims, sources, assumptions, or operational sufficiency.
+    meaning_function: Check claims, sources, assumptions, or operational sufficiency.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we verify?
+    notes: Operation may survive when handle changes.
+  - id: O008
+    handle: Reconstruct
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Rebuild missing understanding or project state.
+    meaning_function: Rebuild missing understanding or project state.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we reconstruct?
+    notes: Operation may survive when handle changes.
+  - id: O009
+    handle: Observe
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Record directly established reality.
+    meaning_function: Record directly established reality.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we observe?
+    notes: Operation may survive when handle changes.
+  - id: O010
+    handle: Interpret
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Form a provisional meaning from observation.
+    meaning_function: Form a provisional meaning from observation.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we interpret?
+    notes: Operation may survive when handle changes.
+  - id: O011
+    handle: Propose
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Offer a possible next inference or action.
+    meaning_function: Offer a possible next inference or action.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we propose?
+    notes: Operation may survive when handle changes.
+  - id: O012
+    handle: Reopen
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Return a judgement to active consideration when conditions change.
+    meaning_function: Return a judgement to active consideration when conditions change.
+    gravity: High
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we reopen?
+    notes: Operation may survive when handle changes.
+  - id: O013
+    handle: Protect
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Prevent recurrence or loss.
+    meaning_function: Prevent recurrence or loss.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we protect?
+    notes: Operation may survive when handle changes.
+  - id: O014
+    handle: Enable
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Make action or understanding possible.
+    meaning_function: Make action or understanding possible.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we enable?
+    notes: Operation may survive when handle changes.
+  - id: O015
+    handle: Block
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Prevent action or continuation.
+    meaning_function: Prevent action or continuation.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we block?
+    notes: Operation may survive when handle changes.
+  - id: O016
+    handle: Rebase
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Reduce active burden without destroying recoverability.
+    meaning_function: Reduce active burden without destroying recoverability.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we rebase?
+    notes: Operation may survive when handle changes.
+  - id: O017
+    handle: Navigate
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Move between current orientation and deeper reality.
+    meaning_function: Move between current orientation and deeper reality.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we navigate?
+    notes: Operation may survive when handle changes.
+  - id: O018
+    handle: Retrieve
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Bring relevant depth into attention when useful.
+    meaning_function: Bring relevant depth into attention when useful.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we retrieve?
+    notes: Operation may survive when handle changes.
+  - id: O019
+    handle: Promote
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Move useful continuity into active state.
+    meaning_function: Move useful continuity into active state.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we promote?
+    notes: Operation may survive when handle changes.
+  - id: O020
+    handle: Demote
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Move inactive depth behind the working surface.
+    meaning_function: Move inactive depth behind the working surface.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we demote?
+    notes: Operation may survive when handle changes.
+  - id: O021
+    handle: Externalise
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Persist important state outside transient context.
+    meaning_function: Persist important state outside transient context.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we externalise?
+    notes: Operation may survive when handle changes.
+  - id: O022
+    handle: Checkpoint
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Preserve consequential change at a useful boundary.
+    meaning_function: Preserve consequential change at a useful boundary.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we checkpoint?
+    notes: Operation may survive when handle changes.
+  - id: O023
+    handle: Resume
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Continue from portable or inherited state.
+    meaning_function: Continue from portable or inherited state.
+    gravity: Medium
+    status: Candidate / recurring
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we resume?
+    notes: Operation may survive when handle changes.
+  - id: O024
+    handle: Continue
+    primary_family: Operation
+    secondary_family: Temporal / Directional
+    form: verb
+    underlying_operation: Do useful work from inherited continuity.
+    meaning_function: Do useful work from inherited continuity.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated across lineage
+    failure_if_lost: Relevant behaviour is not activated.
+    risk_if_overused: Method theatre or overuse.
+    strong_connections: Reality; Successor; Change; Recovery
+    contrast_boundary: Inaction or mechanical compliance
+    activation_question: When should we continue?
+    notes: Operation may survive when handle changes.
+  - id: G001
+    handle: DEPENDS_ON
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: Validity or operation relies materially on another reality.
+    meaning_function: Validity or operation relies materially on another reality.
+    gravity: High
+    status: Earned / experimental
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What keeps this sensible, valid, or workable?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G002
+    handle: REOPEN_IF
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: A changed condition should trigger reconsideration.
+    meaning_function: A changed condition should trigger reconsideration.
+    gravity: High
+    status: Earned / experimental
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What change should reopen judgement?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G003
+    handle: PROTECTS_AGAINST
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: A structure exists materially to prevent a known failure or loss.
+    meaning_function: A structure exists materially to prevent a known failure or loss.
+    gravity: High
+    status: Earned / experimental
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What expensive failure explains why this exists?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G004
+    handle: REINTRODUCES
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: A change can bring back a known failure or loss.
+    meaning_function: A change can bring back a known failure or loss.
+    gravity: High
+    status: Earned / experimental
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What problem returns if this changes?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G005
+    handle: SUPPORTS
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: Evidence or reality increases plausibility or confidence.
+    meaning_function: Evidence or reality increases plausibility or confidence.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What supports this?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G006
+    handle: CONTRADICTS
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: Evidence or reality conflicts with a claim or interpretation.
+    meaning_function: Evidence or reality conflicts with a claim or interpretation.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What contradicts this?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G007
+    handle: CAUSES
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: One reality materially produces another.
+    meaning_function: One reality materially produces another.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What caused this?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G008
+    handle: ENABLES
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: One reality makes action or continuation possible.
+    meaning_function: One reality makes action or continuation possible.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What does this enable?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G009
+    handle: BLOCKS
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: One reality prevents action, recovery, or progress.
+    meaning_function: One reality prevents action, recovery, or progress.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What blocks this?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G010
+    handle: VALID_WHILE
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: A judgement remains valid while a condition holds.
+    meaning_function: A judgement remains valid while a condition holds.
+    gravity: High
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What condition keeps this true?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G011
+    handle: SUPERSEDED_BY
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: A later form replaces an earlier one.
+    meaning_function: A later form replaces an earlier one.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What replaced this?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G012
+    handle: ABSORBED_INTO
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: Useful function survives inside another form.
+    meaning_function: Useful function survives inside another form.
+    gravity: High
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: Where did this function go?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G013
+    handle: NAVIGABLE_VIA
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: Deeper reality can be recovered through a route or asset.
+    meaning_function: Deeper reality can be recovered through a route or asset.
+    gravity: High
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: How can this be recovered?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G014
+    handle: INTERPRETED_AS
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: Observation is assigned a provisional meaning.
+    meaning_function: Observation is assigned a provisional meaning.
+    gravity: High
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What is this believed to mean?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G015
+    handle: PROPOSED_AS
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: Interpretation or evidence suggests a possible action or conclusion.
+    meaning_function: Interpretation or evidence suggests a possible action or conclusion.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What may follow?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G016
+    handle: MATTERS_BECAUSE
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: Importance is grounded in a consequence or objective.
+    meaning_function: Importance is grounded in a consequence or objective.
+    gravity: High
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: Why does this matter?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: G017
+    handle: EXPENSIVE_TO_REDISCOVER
+    primary_family: Geometry
+    secondary_family: Relationship
+    form: edge
+    underlying_operation: Loss would impose high re-derivation cost.
+    meaning_function: Loss would impose high re-derivation cost.
+    gravity: High
+    status: Candidate
+    evidence_status: Project recurrence / graph experiment
+    failure_if_lost: Successor keeps pieces but loses deformation rules.
+    risk_if_overused: Ontology soup; false precision.
+    strong_connections: Decision; Condition; Evidence; Scar; Change
+    contrast_boundary: Mere co-occurrence
+    activation_question: What would be costly to learn again?
+    notes: Use only when explicit relation materially reduces inference cost.
+  - id: E001
+    handle: OBSERVED
+    primary_family: Epistemic
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Directly established.
+    meaning_function: Directly established.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: interpreted; proposed
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: E002
+    handle: INTERPRETED
+    primary_family: Epistemic
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Current meaning assigned to observation.
+    meaning_function: Current meaning assigned to observation.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: observed; proposed
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: E003
+    handle: PROPOSED
+    primary_family: Epistemic
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Possible conclusion or action not yet established.
+    meaning_function: Possible conclusion or action not yet established.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: observed; interpreted
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: E004
+    handle: KNOWN
+    primary_family: Epistemic
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Established enough for present use.
+    meaning_function: Established enough for present use.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: unknown
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: E005
+    handle: UNKNOWN
+    primary_family: Epistemic
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Not known.
+    meaning_function: Not known.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: known
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: E006
+    handle: UNCERTAIN
+    primary_family: Epistemic
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Confidence or interpretation remains unsettled.
+    meaning_function: Confidence or interpretation remains unsettled.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: established
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: E007
+    handle: VERIFIED
+    primary_family: Epistemic
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Checked against source or evidence.
+    meaning_function: Checked against source or evidence.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: unverified
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: E008
+    handle: UNVERIFIED
+    primary_family: Epistemic
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Awaiting source or test.
+    meaning_function: Awaiting source or test.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: verified
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: D001
+    handle: Adopted
+    primary_family: Decision Status
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Currently operative.
+    meaning_function: Currently operative.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: rejected
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: D002
+    handle: Provisional
+    primary_family: Decision Status
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Active for trial or current use without full ratification.
+    meaning_function: Active for trial or current use without full ratification.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: ratified
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: D003
+    handle: Rejected
+    primary_family: Decision Status
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Considered and not selected.
+    meaning_function: Considered and not selected.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: adopted
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: D004
+    handle: Superseded
+    primary_family: Decision Status
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Replaced by later form.
+    meaning_function: Replaced by later form.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: current
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: D005
+    handle: Open
+    primary_family: Decision Status
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Not yet settled.
+    meaning_function: Not yet settled.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: closed
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: D006
+    handle: Experimental
+    primary_family: Decision Status
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Under active test.
+    meaning_function: Under active test.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: ratified
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: D007
+    handle: Ratified
+    primary_family: Decision Status
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Accepted baseline or floor.
+    meaning_function: Accepted baseline or floor.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: experimental
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: D008
+    handle: Retired
+    primary_family: Decision Status
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: No longer active.
+    meaning_function: No longer active.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: current
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: V001
+    handle: Material
+    primary_family: Gravity / Value
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Enough to change understanding, judgement, or action.
+    meaning_function: Enough to change understanding, judgement, or action.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: merely interesting
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: V002
+    handle: Expensive
+    primary_family: Gravity / Value
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: High cost to rediscover, reverify, or decide again.
+    meaning_function: High cost to rediscover, reverify, or decide again.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: cheap
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: V003
+    handle: Consequential
+    primary_family: Gravity / Value
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Produces meaningful downstream effects.
+    meaning_function: Produces meaningful downstream effects.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: incidental
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: V004
+    handle: Load-bearing
+    primary_family: Gravity / Value
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Removal would damage interpretation or continuation.
+    meaning_function: Removal would damage interpretation or continuation.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: decorative
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: V005
+    handle: Active
+    primary_family: Gravity / Value
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Presently influential or needed.
+    meaning_function: Presently influential or needed.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: inactive
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: V006
+    handle: Available
+    primary_family: Gravity / Value
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Recoverable but not necessarily active.
+    meaning_function: Recoverable but not necessarily active.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: active
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: V007
+    handle: Sufficient
+    primary_family: Gravity / Value
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Enough to orient and continue.
+    meaning_function: Enough to orient and continue.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: complete
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: V008
+    handle: Relevant
+    primary_family: Gravity / Value
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Connected to present continuation.
+    meaning_function: Connected to present continuation.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: archival only
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: V009
+    handle: Recurring
+    primary_family: Gravity / Value
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Observed repeatedly.
+    meaning_function: Observed repeatedly.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: hypothetical
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: T001
+    handle: Survived
+    primary_family: Temporal / Directional
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Persisted across versions or reinterpretation.
+    meaning_function: Persisted across versions or reinterpretation.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: extinct
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: T002
+    handle: Changed
+    primary_family: Temporal / Directional
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Became materially different.
+    meaning_function: Became materially different.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: unchanged
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: T003
+    handle: Remains
+    primary_family: Temporal / Directional
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Continues to hold or matter.
+    meaning_function: Continues to hold or matter.
+    gravity: Medium
+    status: Strong survivor
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: expired
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: T004
+    handle: Became
+    primary_family: Temporal / Directional
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Expresses consequential evolution.
+    meaning_function: Expresses consequential evolution.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: always was
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: T005
+    handle: Reopens
+    primary_family: Temporal / Directional
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Returns judgement to active consideration.
+    meaning_function: Returns judgement to active consideration.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: settled
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: T006
+    handle: Persists
+    primary_family: Temporal / Directional
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Continues through time or context.
+    meaning_function: Continues through time or context.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: transient
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: T007
+    handle: Expires
+    primary_family: Temporal / Directional
+    secondary_family: Qualifier
+    form: adjective/status
+    underlying_operation: Loses validity after condition or time.
+    meaning_function: Loses validity after condition or time.
+    gravity: Medium
+    status: Candidate
+    evidence_status: Repeated lineage usage
+    failure_if_lost: Successor misreads confidence, priority, or status.
+    risk_if_overused: Overclassification or status theatre.
+    strong_connections: Decision; Evidence; Interpretation; Force
+    contrast_boundary: persists
+    activation_question: How should this influence current judgement?
+    notes: Optional qualifier, not mandatory metadata.
+  - id: Q001
+    handle: Where are we now?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: State recovery
+    meaning_function: State recovery
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: State; Frontier
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q002
+    handle: What still matters?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Force recovery
+    meaning_function: Force recovery
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Force; Pressure; Priority
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q003
+    handle: What remains unknown?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Gap recovery
+    meaning_function: Gap recovery
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Gap; Uncertainty; Evidence
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q004
+    handle: Why does this exist?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Origin / rationale recovery
+    meaning_function: Origin / rationale recovery
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Rationale; Origin; Decision
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q005
+    handle: What was expensive to learn?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Scar recovery
+    meaning_function: Scar recovery
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Scar; Failure; Cost
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q006
+    handle: What changed understanding?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Understanding effect
+    meaning_function: Understanding effect
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Understanding; Change; Evidence
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q007
+    handle: What still changes decisions?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Future / leverage
+    meaning_function: Future / leverage
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Decision; Force; Future
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q008
+    handle: What depends on what?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Dependency recovery
+    meaning_function: Dependency recovery
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Dependency; Relationship
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q009
+    handle: What changes if this changes?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Impact reasoning
+    meaning_function: Impact reasoning
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Consequence; Interaction; Change
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q010
+    handle: What is still pulling against what?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Active tension
+    meaning_function: Active tension
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Tension; Trade-off
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q011
+    handle: What can happen next?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Agency / next action
+    meaning_function: Agency / next action
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Next; Action; Agency
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q012
+    handle: What is this becoming?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Trajectory recovery
+    meaning_function: Trajectory recovery
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Trajectory; Evolution
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q013
+    handle: What useful continuity does this reveal?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Semantic prospecting
+    meaning_function: Semantic prospecting
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Meaning; Continuity
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q014
+    handle: What materially changed?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Incremental continuity
+    meaning_function: Incremental continuity
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Change; Watch; Checkpoint
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q015
+    handle: What should reopen judgement?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Conditionality
+    meaning_function: Conditionality
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Decision; Condition; REOPEN_IF
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q016
+    handle: Does this explanation still deserve influence?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Applicability
+    meaning_function: Applicability
+    gravity: High
+    status: Strong survivor
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Interpretation; Authority; Condition
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q017
+    handle: What would be rediscovered?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Anti-thinning test
+    meaning_function: Anti-thinning test
+    gravity: High
+    status: Candidate
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Understanding; Cost
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q018
+    handle: What would need reverification?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Evidence continuity
+    meaning_function: Evidence continuity
+    gravity: High
+    status: Candidate
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Evidence; Source
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q019
+    handle: What would need deciding again?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Decision continuity
+    meaning_function: Decision continuity
+    gravity: High
+    status: Candidate
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Decision; Rationale; Status
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q020
+    handle: What attention does this displace?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Attention economics
+    meaning_function: Attention economics
+    gravity: High
+    status: Candidate
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Attention; Structure; Cost
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q021
+    handle: What failure does this prevent?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Protection geometry
+    meaning_function: Protection geometry
+    gravity: High
+    status: Candidate
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: Scar; PROTECTS_AGAINST
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: Q022
+    handle: What problem returns if this changes?
+    primary_family: Question
+    secondary_family: Activation
+    form: question
+    underlying_operation: Regression geometry
+    meaning_function: Regression geometry
+    gravity: High
+    status: Candidate
+    evidence_status: Repeated / recent experiments
+    failure_if_lost: Relevant reasoning is not activated.
+    risk_if_overused: Question tourism; repetitive prompting.
+    strong_connections: REINTRODUCES; Scar
+    contrast_boundary: Passive description
+    activation_question: What answer would materially change continuation?
+    notes: Questions are cranes, not cargo.
+  - id: S001
+    handle: Chainsaw Compression
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Rich reality becomes fluent but generic through destructive reduction.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Rationale; uncertainty; causality; relationships; agency continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Rationale; uncertainty; causality; relationships; agency
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would chainsaw compression create?
+    notes: Preserve distinctions and expensive meaning.
+  - id: S002
+    handle: Method Gravity
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Continuity machinery consumes attention intended for the project.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Attention; project reality continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Attention; project reality
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would method gravity create?
+    notes: Use smallest structure that earns its cost.
+  - id: S003
+    handle: Compliance Theatre
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Artifact looks structurally complete while material continuity is missing.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Reality; force; bootability continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Reality; force; bootability
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would compliance theatre create?
+    notes: Judge by continuation, not vocabulary.
+  - id: S004
+    handle: Semantic Furniture
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Handles or vocabularies persist after their meaning/value is gone.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Attention; interpretation continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Attention; interpretation
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would semantic furniture create?
+    notes: Carry meaning, discard handle.
+  - id: S005
+    handle: Identity Overclaim
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Artifact continuity is mistaken for subjective continuity.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Authority; trust continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Authority; trust
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would identity overclaim create?
+    notes: Successor is a new participant using artifacts.
+  - id: S006
+    handle: Authority Inflation
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Newer, longer, or more fluent material is treated as more authoritative.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Decision; status continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Decision; status
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would authority inflation create?
+    notes: Preserve explicit authority and limits.
+  - id: S007
+    handle: Archive Gravity
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Preserved volume is mistaken for continuity quality.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Attention; navigation continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Attention; navigation
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would archive gravity create?
+    notes: Keep active orientation small; depth recoverable.
+  - id: S008
+    handle: Map Tourism
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Navigation structure grows faster than useful territory.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Navigation; attention continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Navigation; attention
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would map tourism create?
+    notes: Create maps only when retrieval improves.
+  - id: S009
+    handle: Workshop Tourism
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Optional recovery methods become activity for their own sake.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Attention; recovery continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Attention; recovery
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would workshop tourism create?
+    notes: Seek leverage, not coverage.
+  - id: S010
+    handle: Diary Drift
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Conversation chronology replaces meaningful episodes and state.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: History; episode continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: History; episode
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would diary drift create?
+    notes: Preserve consequential change, not transcript volume.
+  - id: S011
+    handle: Gap Inflation
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Unknowns proliferate without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Gap; uncertainty continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Gap; uncertainty
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would gap inflation create?
+    notes: Declare material gaps only.
+  - id: S012
+    handle: Inventory Bloat
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Assets are listed because they exist rather than matter.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Assets; attention continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Assets; attention
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would inventory bloat create?
+    notes: Record only assets that affect continuation.
+  - id: S013
+    handle: Manufactured Conflict
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Tensions are invented to make analysis look rich.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Tension; interpretation continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Tension; interpretation
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would manufactured conflict create?
+    notes: Preserve only supported competing realities.
+  - id: S014
+    handle: Premature Action
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Next steps are proposed before reality and uncertainty are understood.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Agency; evidence continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Agency; evidence
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would premature action create?
+    notes: Orient before acting.
+  - id: S015
+    handle: Snapshot Bias
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Current state is preserved without evolution or trajectory.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: State; history; future continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: State; history; future
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would snapshot bias create?
+    notes: Recover meaningful change and direction.
+  - id: S016
+    handle: Retrospective Rationalisation
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Later story replaces actual reasons and uncertainty.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Rationale; evidence continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Rationale; evidence
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would retrospective rationalisation create?
+    notes: Preserve contemporaneous basis and status.
+  - id: S017
+    handle: Spurious Relationships
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Connections are asserted because they are plausible or neat.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Geometry; evidence continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Geometry; evidence
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would spurious relationships create?
+    notes: Graph only supported material interactions.
+  - id: S018
+    handle: False Incrementality
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Each watch rewrites full state despite incremental framing.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Wayfarer; change continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Wayfarer; change
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would false incrementality create?
+    notes: Update material delta instead.
+  - id: S019
+    handle: Checkpoint Sediment
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Every watch appends material without rebasing.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Attention; Wayfarer continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Attention; Wayfarer
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would checkpoint sediment create?
+    notes: Refresh active state and demote old depth.
+  - id: S020
+    handle: Abstraction Drift
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Design understanding survives while concrete project specificity fades.
+    gravity: High
+    status: Strong survivor
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Reality; assets; decisions continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Reality; assets; decisions
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would abstraction drift create?
+    notes: Test rediscovery, reverification, redecision.
+  - id: S021
+    handle: Explanatory Dominance
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: A powerful explanation reshapes independent recovered reality.
+    gravity: High
+    status: Candidate / recent
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Interpretation; attention continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Interpretation; attention
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would explanatory dominance create?
+    notes: Preserve competing reality and applicability.
+  - id: S022
+    handle: Landing Erosion
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Primary artifact becomes too thin because material is pushed outward.
+    gravity: High
+    status: Candidate / recent
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Bootability; assets continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Bootability; assets
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would landing erosion create?
+    notes: Keep primary state sufficient.
+  - id: S023
+    handle: Hidden Dependency
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Continuation silently requires unavailable tools or infrastructure.
+    gravity: High
+    status: Candidate / recent
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Capability; transport continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Capability; transport
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would hidden dependency create?
+    notes: Portable continuity survives capability loss.
+  - id: S024
+    handle: Transport Dominance
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Compression/transport machinery becomes more important than continuity.
+    gravity: High
+    status: Candidate / recent
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Payload; attention continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Payload; attention
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would transport dominance create?
+    notes: Transport stays subordinate.
+  - id: S025
+    handle: Ontology Gravity
+    primary_family: Scar / Failure
+    secondary_family: Failure Handle
+    form: noun phrase
+    underlying_operation: Recognise and avoid failure.
+    meaning_function: Graph vocabulary and classification become the work.
+    gravity: High
+    status: Candidate / recent
+    evidence_status: Lineage scar or recent experiment
+    failure_if_lost: Geometry; attention continuity weakens.
+    risk_if_overused: Overuse can become alarmism or semantic furniture.
+    strong_connections: Geometry; attention
+    contrast_boundary: Healthy continuation
+    activation_question: What behaviour would ontology gravity create?
+    notes: Do not graph the universe.
+  relations:
+  - relation_id: REL001
+    source: Evidence
+    relation: SUPPORTS
+    target: Interpretation
+    relationship_family: Epistemic
+    why_material: Grounds current meaning
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL002
+    source: Evidence
+    relation: CONTRADICTS
+    target: Interpretation
+    relationship_family: Epistemic
+    why_material: Preserves disconfirmation
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL003
+    source: Observation
+    relation: INTERPRETED_AS
+    target: Interpretation
+    relationship_family: Epistemic
+    why_material: Separates source from meaning
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL004
+    source: Interpretation
+    relation: PROPOSED_AS
+    target: Decision or Action
+    relationship_family: Epistemic
+    why_material: Separates inference from proposal
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL005
+    source: Decision
+    relation: DEPENDS_ON
+    target: Condition
+    relationship_family: Conditional
+    why_material: Preserves basis of validity
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL006
+    source: Decision
+    relation: REOPEN_IF
+    target: Condition changes
+    relationship_family: Conditional
+    why_material: Preserves reopenability
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL007
+    source: Scar
+    relation: MATTERS_BECAUSE
+    target: Expensive to rediscover
+    relationship_family: Value
+    why_material: Explains admission to continuity
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL008
+    source: Architecture
+    relation: PROTECTS_AGAINST
+    target: Known failure
+    relationship_family: Protection
+    why_material: Preserves reason protection exists
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL009
+    source: Removing protection
+    relation: REINTRODUCES
+    target: Known failure
+    relationship_family: Regression
+    why_material: Preserves regression risk
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL010
+    source: Rebase
+    relation: PROTECTS_AGAINST
+    target: Attention overload
+    relationship_family: Protection
+    why_material: Explains why demotion exists
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL011
+    source: Rebase
+    relation: DEPENDS_ON
+    target: Depth remains recoverable
+    relationship_family: Conditional
+    why_material: Keeps rebase distinct from deletion
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL012
+    source: Asset
+    relation: NAVIGABLE_VIA
+    target: Route or location
+    relationship_family: Navigation
+    why_material: Preserves source reachability
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL013
+    source: Current orientation
+    relation: DEPENDS_ON
+    target: Concrete project state
+    relationship_family: Operational
+    why_material: Prevents abstraction drift
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL014
+    source: Wayfarer distinct role
+    relation: DEPENDS_ON
+    target: Incremental continuity is distinct
+    relationship_family: Architecture
+    why_material: Preserves instrument boundary
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL015
+    source: Wayfarer distinct role
+    relation: REOPEN_IF
+    target: Repeated crossings are equivalent at lower cost
+    relationship_family: Conditional
+    why_material: Allows architecture to change intelligently
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL016
+    source: Full independent views
+    relation: PROTECTS_AGAINST
+    target: Single-reconstruction blind spots
+    relationship_family: Assurance
+    why_material: Explains specialist advantage
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL017
+    source: T4A default role
+    relation: DEPENDS_ON
+    target: Routine crossings remain adequate
+    relationship_family: Architecture
+    why_material: Preserves default admission rule
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL018
+    source: 101D minimal form
+    relation: PROTECTS_AGAINST
+    target: Stale inherited authority
+    relationship_family: Protection
+    why_material: Explains why question exists
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL019
+    source: 101D expansion
+    relation: REINTRODUCES
+    target: Explanatory dominance
+    relationship_family: Regression
+    why_material: Preserves reduction scar
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  - relation_id: REL020
+    source: Continuity Principles
+    relation: REOPEN_IF
+    target: Foreign projects lose reality or geometry
+    relationship_family: Conditional
+    why_material: Principles receive no exemption from applicability
+    strength: High
+    status: Supported
+    evidence: Lineage recurrence
+    risk_if_wrong: Distorted project geometry
+  distinctions:
+  - id: B001
+    a: Reality
+    b: Interpretation
+    boundary_type: Must remain distinguishable
+    why_it_matters: Do not let meaning replace source reality.
+    failure_when_collapsed: Reality and Interpretation collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B002
+    a: Observation
+    b: Inference
+    boundary_type: Must remain distinguishable
+    why_it_matters: Keep direct establishment separate from reasoning.
+    failure_when_collapsed: Observation and Inference collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B003
+    a: Proposal
+    b: Authority
+    boundary_type: Must remain distinguishable
+    why_it_matters: Suggestions do not become mandates by tone.
+    failure_when_collapsed: Proposal and Authority collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B004
+    a: Continuity
+    b: Identity
+    boundary_type: Must remain distinguishable
+    why_it_matters: Artifacts continue work, not subjective selfhood.
+    failure_when_collapsed: Continuity and Identity collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B005
+    a: Available
+    b: Active
+    boundary_type: Must remain distinguishable
+    why_it_matters: Recoverable depth need not occupy attention.
+    failure_when_collapsed: Available and Active collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B006
+    a: Important
+    b: Active
+    boundary_type: Must remain distinguishable
+    why_it_matters: Something can matter without being needed now.
+    failure_when_collapsed: Important and Active collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B007
+    a: Newer
+    b: Authority
+    boundary_type: Must remain distinguishable
+    why_it_matters: Chronology does not grant legitimacy.
+    failure_when_collapsed: Newer and Authority collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B008
+    a: Compression
+    b: Recovery
+    boundary_type: Must remain distinguishable
+    why_it_matters: Smaller representation is not necessarily usable continuity.
+    failure_when_collapsed: Compression and Recovery collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B009
+    a: Smallness
+    b: Success
+    boundary_type: Must remain distinguishable
+    why_it_matters: Byte reduction is not a success metric.
+    failure_when_collapsed: Smallness and Success collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B010
+    a: Availability
+    b: Attention
+    boundary_type: Must remain distinguishable
+    why_it_matters: Accessible information need not be loaded.
+    failure_when_collapsed: Availability and Attention collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B011
+    a: Artifact
+    b: Source Reality
+    boundary_type: Must remain distinguishable
+    why_it_matters: A handoff is not forensic replacement.
+    failure_when_collapsed: Artifact and Source Reality collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B012
+    a: Execution
+    b: State
+    boundary_type: Must remain distinguishable
+    why_it_matters: Tools may disappear; state must survive.
+    failure_when_collapsed: Execution and State collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B013
+    a: Tool
+    b: Outcome
+    boundary_type: Must remain distinguishable
+    why_it_matters: Preserve what the tool produced, not dependence on the tool.
+    failure_when_collapsed: Tool and Outcome collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B014
+    a: Map
+    b: Territory
+    boundary_type: Must remain distinguishable
+    why_it_matters: Navigation represents but does not replace reality.
+    failure_when_collapsed: Map and Territory collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B015
+    a: Preservation
+    b: Obedience
+    boundary_type: Must remain distinguishable
+    why_it_matters: Inherited lessons may be challenged.
+    failure_when_collapsed: Preservation and Obedience collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B016
+    a: Successor
+    b: Predecessor
+    boundary_type: Must remain distinguishable
+    why_it_matters: New participant need not reproduce old intelligence.
+    failure_when_collapsed: Successor and Predecessor collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B017
+    a: Crossing
+    b: Persistence
+    boundary_type: Must remain distinguishable
+    why_it_matters: Point transfer differs from long-lived incremental continuity.
+    failure_when_collapsed: Crossing and Persistence collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B018
+    a: History
+    b: Active State
+    boundary_type: Must remain distinguishable
+    why_it_matters: Past depth and present work need different attention.
+    failure_when_collapsed: History and Active State collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B019
+    a: Richness
+    b: Completeness
+    boundary_type: Must remain distinguishable
+    why_it_matters: More prose can still omit the important thing.
+    failure_when_collapsed: Richness and Completeness collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B020
+    a: Structure
+    b: Continuity
+    boundary_type: Must remain distinguishable
+    why_it_matters: A complete schema can still fail continuation.
+    failure_when_collapsed: Structure and Continuity collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B021
+    a: Connectivity
+    b: Transportation
+    boundary_type: Must remain distinguishable
+    why_it_matters: A link existing does not mean continuity crossed successfully.
+    failure_when_collapsed: Connectivity and Transportation collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B022
+    a: Repair
+    b: Activation
+    boundary_type: Must remain distinguishable
+    why_it_matters: Fixing a carrier does not automatically restore meaning.
+    failure_when_collapsed: Repair and Activation collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B023
+    a: Evaluation
+    b: Approval
+    boundary_type: Must remain distinguishable
+    why_it_matters: Assessing an idea does not ratify it.
+    failure_when_collapsed: Evaluation and Approval collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B024
+    a: Dark
+    b: Dead
+    boundary_type: Must remain distinguishable
+    why_it_matters: Unavailable or inactive does not mean destroyed.
+    failure_when_collapsed: Dark and Dead collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  - id: B025
+    a: Compatibility
+    b: Destiny
+    boundary_type: Must remain distinguishable
+    why_it_matters: A current constraint need not define the future forever.
+    failure_when_collapsed: Compatibility and Destiny collapse; successor judgement changes.
+    related_families: Boundary / Epistemic / Operational
+    status: Strong survivor
+    evidence: Repeated lineage
+  questions:
+  - id: Q001
+    question: Where are we now?
+    operation_triggered: State recovery
+    primary_targets: State; Frontier
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q002
+    question: What still matters?
+    operation_triggered: Force recovery
+    primary_targets: Force; Pressure; Priority
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q003
+    question: What remains unknown?
+    operation_triggered: Gap recovery
+    primary_targets: Gap; Uncertainty; Evidence
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q004
+    question: Why does this exist?
+    operation_triggered: Origin / rationale recovery
+    primary_targets: Rationale; Origin; Decision
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q005
+    question: What was expensive to learn?
+    operation_triggered: Scar recovery
+    primary_targets: Scar; Failure; Cost
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q006
+    question: What changed understanding?
+    operation_triggered: Understanding effect
+    primary_targets: Understanding; Change; Evidence
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q007
+    question: What still changes decisions?
+    operation_triggered: Future / leverage
+    primary_targets: Decision; Force; Future
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q008
+    question: What depends on what?
+    operation_triggered: Dependency recovery
+    primary_targets: Dependency; Relationship
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q009
+    question: What changes if this changes?
+    operation_triggered: Impact reasoning
+    primary_targets: Consequence; Interaction; Change
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q010
+    question: What is still pulling against what?
+    operation_triggered: Active tension
+    primary_targets: Tension; Trade-off
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q011
+    question: What can happen next?
+    operation_triggered: Agency / next action
+    primary_targets: Next; Action; Agency
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q012
+    question: What is this becoming?
+    operation_triggered: Trajectory recovery
+    primary_targets: Trajectory; Evolution
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q013
+    question: What useful continuity does this reveal?
+    operation_triggered: Semantic prospecting
+    primary_targets: Meaning; Continuity
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q014
+    question: What materially changed?
+    operation_triggered: Incremental continuity
+    primary_targets: Change; Watch; Checkpoint
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q015
+    question: What should reopen judgement?
+    operation_triggered: Conditionality
+    primary_targets: Decision; Condition; REOPEN_IF
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q016
+    question: Does this explanation still deserve influence?
+    operation_triggered: Applicability
+    primary_targets: Interpretation; Authority; Condition
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Strong survivor
+    evidence: Tape / Guides / Principles
+  - id: Q017
+    question: What would be rediscovered?
+    operation_triggered: Anti-thinning test
+    primary_targets: Understanding; Cost
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Candidate
+    evidence: Tape / Guides / Principles
+  - id: Q018
+    question: What would need reverification?
+    operation_triggered: Evidence continuity
+    primary_targets: Evidence; Source
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Candidate
+    evidence: Tape / Guides / Principles
+  - id: Q019
+    question: What would need deciding again?
+    operation_triggered: Decision continuity
+    primary_targets: Decision; Rationale; Status
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Candidate
+    evidence: Tape / Guides / Principles
+  - id: Q020
+    question: What attention does this displace?
+    operation_triggered: Attention economics
+    primary_targets: Attention; Structure; Cost
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Candidate
+    evidence: Tape / Guides / Principles
+  - id: Q021
+    question: What failure does this prevent?
+    operation_triggered: Protection geometry
+    primary_targets: Scar; PROTECTS_AGAINST
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Candidate
+    evidence: Tape / Guides / Principles
+  - id: Q022
+    question: What problem returns if this changes?
+    operation_triggered: Regression geometry
+    primary_targets: REINTRODUCES; Scar
+    typical_benefit: Activates targeted recovery or judgement.
+    risk_misuse: Question tourism; answer without material consequence.
+    gravity: High
+    status: Candidate
+    evidence: Tape / Guides / Principles
+  scars:
+  - id: S001
+    scar: Chainsaw Compression
+    failure_pattern: Rich reality becomes fluent but generic through destructive reduction.
+    typically_damages: Rationale; uncertainty; causality; relationships; agency
+    protective_response: Preserve distinctions and expensive meaning.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S002
+    scar: Method Gravity
+    failure_pattern: Continuity machinery consumes attention intended for the project.
+    typically_damages: Attention; project reality
+    protective_response: Use smallest structure that earns its cost.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S003
+    scar: Compliance Theatre
+    failure_pattern: Artifact looks structurally complete while material continuity is missing.
+    typically_damages: Reality; force; bootability
+    protective_response: Judge by continuation, not vocabulary.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S004
+    scar: Semantic Furniture
+    failure_pattern: Handles or vocabularies persist after their meaning/value is gone.
+    typically_damages: Attention; interpretation
+    protective_response: Carry meaning, discard handle.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S005
+    scar: Identity Overclaim
+    failure_pattern: Artifact continuity is mistaken for subjective continuity.
+    typically_damages: Authority; trust
+    protective_response: Successor is a new participant using artifacts.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S006
+    scar: Authority Inflation
+    failure_pattern: Newer, longer, or more fluent material is treated as more authoritative.
+    typically_damages: Decision; status
+    protective_response: Preserve explicit authority and limits.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S007
+    scar: Archive Gravity
+    failure_pattern: Preserved volume is mistaken for continuity quality.
+    typically_damages: Attention; navigation
+    protective_response: Keep active orientation small; depth recoverable.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S008
+    scar: Map Tourism
+    failure_pattern: Navigation structure grows faster than useful territory.
+    typically_damages: Navigation; attention
+    protective_response: Create maps only when retrieval improves.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S009
+    scar: Workshop Tourism
+    failure_pattern: Optional recovery methods become activity for their own sake.
+    typically_damages: Attention; recovery
+    protective_response: Seek leverage, not coverage.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S010
+    scar: Diary Drift
+    failure_pattern: Conversation chronology replaces meaningful episodes and state.
+    typically_damages: History; episode
+    protective_response: Preserve consequential change, not transcript volume.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S011
+    scar: Gap Inflation
+    failure_pattern: Unknowns proliferate without material consequence.
+    typically_damages: Gap; uncertainty
+    protective_response: Declare material gaps only.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S012
+    scar: Inventory Bloat
+    failure_pattern: Assets are listed because they exist rather than matter.
+    typically_damages: Assets; attention
+    protective_response: Record only assets that affect continuation.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S013
+    scar: Manufactured Conflict
+    failure_pattern: Tensions are invented to make analysis look rich.
+    typically_damages: Tension; interpretation
+    protective_response: Preserve only supported competing realities.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S014
+    scar: Premature Action
+    failure_pattern: Next steps are proposed before reality and uncertainty are understood.
+    typically_damages: Agency; evidence
+    protective_response: Orient before acting.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S015
+    scar: Snapshot Bias
+    failure_pattern: Current state is preserved without evolution or trajectory.
+    typically_damages: State; history; future
+    protective_response: Recover meaningful change and direction.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S016
+    scar: Retrospective Rationalisation
+    failure_pattern: Later story replaces actual reasons and uncertainty.
+    typically_damages: Rationale; evidence
+    protective_response: Preserve contemporaneous basis and status.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S017
+    scar: Spurious Relationships
+    failure_pattern: Connections are asserted because they are plausible or neat.
+    typically_damages: Geometry; evidence
+    protective_response: Graph only supported material interactions.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S018
+    scar: False Incrementality
+    failure_pattern: Each watch rewrites full state despite incremental framing.
+    typically_damages: Wayfarer; change
+    protective_response: Update material delta instead.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S019
+    scar: Checkpoint Sediment
+    failure_pattern: Every watch appends material without rebasing.
+    typically_damages: Attention; Wayfarer
+    protective_response: Refresh active state and demote old depth.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S020
+    scar: Abstraction Drift
+    failure_pattern: Design understanding survives while concrete project specificity fades.
+    typically_damages: Reality; assets; decisions
+    protective_response: Test rediscovery, reverification, redecision.
+    related_handles: Continuity; Judgement; Attention
+    status: Strong survivor
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S021
+    scar: Explanatory Dominance
+    failure_pattern: A powerful explanation reshapes independent recovered reality.
+    typically_damages: Interpretation; attention
+    protective_response: Preserve competing reality and applicability.
+    related_handles: Continuity; Judgement; Attention
+    status: Candidate
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S022
+    scar: Landing Erosion
+    failure_pattern: Primary artifact becomes too thin because material is pushed outward.
+    typically_damages: Bootability; assets
+    protective_response: Keep primary state sufficient.
+    related_handles: Continuity; Judgement; Attention
+    status: Candidate
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S023
+    scar: Hidden Dependency
+    failure_pattern: Continuation silently requires unavailable tools or infrastructure.
+    typically_damages: Capability; transport
+    protective_response: Portable continuity survives capability loss.
+    related_handles: Continuity; Judgement; Attention
+    status: Candidate
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S024
+    scar: Transport Dominance
+    failure_pattern: Compression/transport machinery becomes more important than continuity.
+    typically_damages: Payload; attention
+    protective_response: Transport stays subordinate.
+    related_handles: Continuity; Judgement; Attention
+    status: Candidate
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  - id: S025
+    scar: Ontology Gravity
+    failure_pattern: Graph vocabulary and classification become the work.
+    typically_damages: Geometry; attention
+    protective_response: Do not graph the universe.
+    related_handles: Continuity; Judgement; Attention
+    status: Candidate
+    evidence: Lineage / recent experiment
+    risk_if_overused: Scar fossilisation or alarmism
+  phrases:
+  - id: P001
+    phrase: Trust intelligence.
+    function: Stance
+    underlying_operation: Delegate method to capable judgement.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P002
+    phrase: Load reality first.
+    function: Grounding
+    underlying_operation: Orient before interpretation or action.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P003
+    phrase: Declare gaps honestly.
+    function: Epistemics
+    underlying_operation: Represent absence rather than invent completeness.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P004
+    phrase: Remain able to act.
+    function: Agency
+    underlying_operation: Continuity should preserve useful movement.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P005
+    phrase: Continue the work.
+    function: Continuation
+    underlying_operation: Purpose is work, not artifact completion.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P006
+    phrase: Preserve the journey; do not prescribe the traveller.
+    function: Successor freedom
+    underlying_operation: Carry history without forcing identity or method.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P007
+    phrase: The project remains. Participants rotate.
+    function: Incremental time model
+    underlying_operation: Defines Wayfarer watch geometry.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P008
+    phrase: The floor is a landing surface, not a roof.
+    function: Depth
+    underlying_operation: Minimum bootability does not limit capable recovery.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P009
+    phrase: The primitive is the cargo. The questions are the crane.
+    function: Recovery discipline
+    underlying_operation: Methods lift meaning; they are not the meaning.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P010
+    phrase: Carry recovered meaning, not semantic furniture.
+    function: Semantic leverage
+    underlying_operation: Handles are disposable when operation survives.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P011
+    phrase: Important does not always mean active.
+    function: Attention
+    underlying_operation: Separate value from present salience.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P012
+    phrase: Past conclusions are evidence, not authority.
+    function: Challenge
+    underlying_operation: Allow informed disagreement.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P013
+    phrase: Observation should survive reinterpretation.
+    function: Epistemic durability
+    underlying_operation: Preserve source even when meaning changes.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P014
+    phrase: This explanation survived. Does it still deserve influence?
+    function: Applicability
+    underlying_operation: Test inherited explanatory authority.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P015
+    phrase: What materially changed during my watch?
+    function: Incremental continuity
+    underlying_operation: Checkpoint consequential delta.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P016
+    phrase: Less needless re-derivation without less reality.
+    function: Goal
+    underlying_operation: Reject both compression loss and unnecessary burden.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P017
+    phrase: English carries the story. Geometry protects the deformation rules.
+    function: Representation
+    underlying_operation: Narrative and graph preserve different aspects.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P018
+    phrase: The primary artifact remains sufficient.
+    function: Bootability
+    underlying_operation: Supporting depth must not become dependency.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P019
+    phrase: Make useful supporting depth navigable.
+    function: Navigation
+    underlying_operation: Preserve routes without loading all depth.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  - id: P020
+    phrase: Preserve the connection when losing the connection changes the meaning.
+    function: Geometry
+    underlying_operation: Make expensive edges explicit.
+    related_families: Phrase; Operation; Stance
+    gravity: High
+    status: Strong survivor
+    failure_collision_risk: May become slogan or semantic furniture
+    notes: Keep operation; discard handle if no unique value.
+  summary:
+    atlas_entries: 140
+    explicit_relations: 20
+    distinctions: 25
+    questions: 22
+    scars: 25
+    phrases: 20
+    note: Use the Atlas as evidence and a map source, not as authority.
